@@ -30,6 +30,9 @@ ul {
 ul > li {
     margin-right: 30px;
 }
+ul > li:last-child {
+    margin-right: 0px;
+}
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -64,6 +67,12 @@ section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+}
+.link {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 8px 15px;
+    margin-left: 8px;
 }
 .footer {
     font-size: 13px;
